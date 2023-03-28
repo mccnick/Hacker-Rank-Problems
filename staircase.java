@@ -53,6 +53,3 @@ public class Solution {
         bufferedReader.close();
     }
 }
-
-![staircase java](https://user-images.githubusercontent.com/91184284/228201824-3c1c79c9-8b0e-4b42-9f34-bda10abece9a.png)
-
