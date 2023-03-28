@@ -30,7 +30,6 @@ class Result {
         }
         return sum;
     }
-
         // solved
 }
 
