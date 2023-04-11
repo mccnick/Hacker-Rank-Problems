@@ -29,10 +29,10 @@ class Result {
         for(int i = 0; i < arr.size(); i++)
         {
             L += arr.get(i).get(i);
-            R += arr.get(i).get(arr.size() - i - 1);            
+            R += arr.get(i).get(arr.size() - i - 1);           
         }
         
-        diff = Math.abs(L - R); // must return the absolute value, will work either way, R - L or L - R
+        diff = Math.abs(L - R); // must return the absolute value
         return diff;
     }
 
