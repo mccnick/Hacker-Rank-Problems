@@ -23,10 +23,10 @@ class Result {
     // Write your code here
 
         
-        long sum = 0; // initialize variable since requirements request long integer
-        for(int i = 0; i < ar.size(); i++) // iterate
+        long sum = 0; // initialize
+        for(int i = 0; i < ar.size(); i++) // iterate entire array
         {
-            sum += ar.get(i); // return sum of all values of i, which iterate the entire size of the array
+            sum += ar.get(i); // sum is equal to sum plus the current index of the array
         }
         return sum;
     }
