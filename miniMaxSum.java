@@ -32,11 +32,11 @@ class Result {
             maximumSum += arr.get(i); // increment max each space of i in array
         }
     
-        for (int j = arr.size()-2; j > -1; j--) // iterate j (backwards) starting 2 places from end of array; must be positive
+        for (int j = arr.size()-2; j > -1; j--) // iterate j (backwards) starting 2 places from end of array; cannot be negative
         {
             minimumSum += arr.get(j); // increment min each space of j in array
         }
-        System.out.println(minimumSum + " " + maximumSum); // print the totals for min and max
+        System.out.println(minimumSum + " " + maximumSum); // print the totals
         
         // solved
     }
